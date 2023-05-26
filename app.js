@@ -7,7 +7,7 @@ const cityController = require('./controllers/CityController');
 const zoneController = require('./controllers/ZoneController');
 const restoController = require('./controllers/RestoController');
 const specialiteController = require('./controllers/SpecialiteController');
-mongoose.connect('mongodb://0.0.0.0:27017/location', { // Configurer la connexion à la base de données
+mongoose.connect('mongodb+srv://zrayouilkarima:1nApwLD3Ri9RCA7H@cluster0.iqdxmhi.mongodb.net/', { // Configurer la connexion à la base de données
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
